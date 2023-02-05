@@ -3,9 +3,7 @@ import { GraphQLClient ,gql } from "graphql-request"
 import { useState } from "react";
 import { Document, Outline, Page,pdfjs } from 'react-pdf';
 import {BiChevronLeft,BiChevronRight} from "react-icons/bi"
-import {IoMdClose} from "react-icons/io"
 import {MdOutlineLibraryBooks} from "react-icons/md" 
-import { useRouter } from "next/router";
 const graphcms = new GraphQLClient("https://api-ap-south-1.hygraph.com/v2/cldiict2a21gy01uq77a0go4n/master");
 
 
