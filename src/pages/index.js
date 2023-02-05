@@ -62,9 +62,9 @@ export default function Home({posts}) {
       <main className="flex flex-col justify-center items-center pb-10 bg-black dark:bg-white">
       <div className="text-white dark:text-black flex items-center justify-around w-[100vw]">
         <h1 className="py-4 px-4 font-semibold text-xl">Home</h1>
-       <div className="flex gap-4">
+       <div className="flex gap-4 justify-center items-center">
         <Theme/>
-        <button className="hover:text-orange-400" 
+        <button 
         onClick={() => sethandleClick(!handleClick)}>
         {handleClick ? <UserSettings/> : <FaUserAlt size={20}/> }
  
