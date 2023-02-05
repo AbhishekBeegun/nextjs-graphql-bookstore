@@ -97,20 +97,20 @@ function nextPage() {
         onLoadSuccess={onDocumentLoadSuccess}
         >
         { togglechap ?
-        <div className="absolute rounded-lg border shadow bottom-24 left-[50%] overflow-scroll z-10 h-56 bg-white">
+        <div className="absolute rounded-lg dark:border shadow bottom-24 left-[50%] overflow-scroll z-10 h-56 bg-black text-white dark:bg-white dark:text-black">
         <Outline className="text-sm text-center p-2 "
         onItemClick={onItemClick}/>
         </div> : <></>
  }
         
-        <div className="lg:scale-100 h-[650px] text-white overflow-hidden">
+        <div className="lg:scale-100 h-[650px] overflow-hidden">
         <Page scale={0.7} pageNumber={pageNumber} />
         </div>
       </Document>
 
 
    {/* Navigationbutton */}
-   <div className="flex absolute bottom-10 shadow bg-white left-[50%] w-44 h-12 justify-evenly rounded-lg items-center border">
+   <div className="flex absolute bottom-10 shadow bg-black text-white dark:bg-white dark:text-black left-[50%] w-44 h-12 justify-evenly rounded-lg items-center border-black">
 
         <button className="hover:scale-150"
           type="button"
@@ -134,7 +134,7 @@ function nextPage() {
 
         <button title="Chapters"
         onClick={() => settogglechap(!togglechap)}
-         className="bg-white hover:scale-150">
+         className="hover:scale-150">
           <MdOutlineLibraryBooks/>
         </button>
       </div>

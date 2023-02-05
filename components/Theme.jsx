@@ -10,7 +10,7 @@ export function Theme() {
   }
 
   return (
-    <div className="" >
+    <div title="Switch Mode" >
 
         { theme ? (
         <HiSun size={25} className="cursor-pointer" onClick={handleToggleTheme} color="orange"/>
