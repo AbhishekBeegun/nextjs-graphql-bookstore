@@ -1,4 +1,5 @@
 import Navbar from "components/Navbar";
+import React from "react"
 import { GraphQLClient ,gql } from "graphql-request"
 import { useState } from "react";
 import { Document, Outline, Page,pdfjs } from 'react-pdf';

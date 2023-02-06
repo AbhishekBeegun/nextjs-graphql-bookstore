@@ -1,5 +1,7 @@
 import Link from "next/link"
+import React from "react"
 import {MdReadMore} from "react-icons/md"
+import { FaUserAlt } from "react-icons/fa"
 
 
 
@@ -24,7 +26,7 @@ const Blogcard = ({title,slug,key,datePublished,coverphoto,owner}) => {
               <div className="w-1/2 flex flex-col justify-evenly ">
                 <h1 className="text-2xl font-semibold">{title}</h1>
                  <div className="flex gap-2 items-center">
-                  <img src={owner.picture} alt={owner.picture} className="w-6 rounded-full" />
+                  <img src={owner.picture} alt="" className="w-6 rounded-full" />
                   <h4 className="text-xs">{owner.name}</h4>
                 </div> 
                 <p className="text-xs">Date Added : {datePublished}</p>

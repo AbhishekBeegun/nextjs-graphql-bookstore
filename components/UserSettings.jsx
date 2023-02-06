@@ -1,6 +1,6 @@
 import {AiOutlineArrowLeft} from "react-icons/ai"
 import { FaUserAlt } from "react-icons/fa"
-
+import React from "react"
 const UserSettings = () => {
 
   return (

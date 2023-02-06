@@ -1,5 +1,5 @@
 import { useTheme } from "../contexts/ThemeContext"
-
+import React from "react"
 import {HiSun,HiMoon} from "react-icons/hi"
 export function Theme() {
   const { theme, setTheme } = useTheme()

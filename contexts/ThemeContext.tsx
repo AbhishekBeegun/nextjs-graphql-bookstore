@@ -1,3 +1,4 @@
+import React from "react"
 import { createContext, ReactElement, useContext, useEffect, useState, SetStateAction } from "react";
 
 interface ThemeContextProps {
